@@ -13,4 +13,4 @@
 
 
 
-Route::get('/', 'LineBotController@index')->name('index');
+Route::get('/hello', 'LineBotController@index')->name('index');
